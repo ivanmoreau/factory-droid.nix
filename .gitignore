@@ -1,0 +1,9 @@
+# Nix build outputs
+result
+result-*
+
+# Keep only flake files
+*
+!flake.nix
+!flake.lock
+!.gitignore
